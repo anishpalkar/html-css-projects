@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #efeff0;
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    gap:50px;
+}
+
+nav ul li{
+    list-style: none;
+    /* margin-right:5% ; since we gave gap */
+    font-weight: 500;
+}
+
+/* CSS for  main section*/
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+   width:40%;
+}
+
+.leftmain h1{
+    font-size: 67px;
+}
+
+.leftmain p{
+    margin: 5% 0px;
+}
+
+.leftmain button{
+    background-color: #1C8D73;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size:16px;
+    font-weight: 600;
+    color:#efeff0;
+}
+
+.rightmain{
+    width:60%
+}
+
+.rightmain-flex{
+    display: flex;
+
+}
+
+.rightmain-img{
+    padding: 10px;
+}
+
+.img1{
+    align-self:flex-end;
+}
